@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/index_layout.html}">
+<head>
+  <title>Home</title>
+</head>
+
+<body>
+
+<main layout:fragment="content">
+  <!-- job board & sidebar section  -->
+  <div class="container-fluid jb-wrapper" >
+    <div class="container">
+      <div class="row">
+        <!-- job board -->
+        <div class="col-md-8 col-sm-12 col-12">
+          <div class="job-board-wrap">
+            <h2 class="widget-title">
+              <span>Urgent Recruitment</span>
+            </h2>
+
+            <div class="job-group">
+              <div class="job pagi">
+                <div class="job-content">
+                  <div class="job-logo">
+                    <a href="#">
+                      <img src="img/fpt-logo.png" class="job-logo-ima" alt="job-logo">
+                    </a>
+                  </div>
+
+                  <div class="job-desc">
+                    <div class="job-title">
+                      <a href="#">[HCM] 02 Solution Architects–Up to $2000</a>
+                    </div>
+                    <div class="job-company">
+                      <a href="#">Fpt Software</a> | <a href="#" class="job-address"><i class="fa fa-map-marker"
+                          aria-hidden="true"></i>
+                        Đà Nẵng</a>
+                    </div>
+
+                    <div class="job-inf">
+                      <div class="job-main-skill">
+                        <i class="fa fa-code" aria-hidden="true"></i> <a href="#"> Java</a>
+                      </div>
+                      <div class="job-salary">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                        <span class="salary-min">15<em class="salary-unit">triệu</em></span>
+                        <span class="salary-max">35 <em class="salary-unit">triệu</em></span>
+                      </div>
+                      <div class="job-deadline">
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> Hạn nộp:
+                          <strong>31/12/2019</strong></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrap-btn-appl">
+                    <a href="#" class="btn btn-appl">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="job pagi">
+                <div class="job-content">
+                  <div class="job-logo">
+                    <a href="#">
+                      <img src="img/alipay-logo.png" class="job-logo-ima" alt="job-logo">
+                    </a>
+                  </div>
+
+                  <div class="job-desc">
+                    <div class="job-title">
+                      <a href="#">Fullstack .NET Developer (Angular/React)</a>
+                    </div>
+                    <div class="job-company">
+                      <a href="#">Orient Software</a> | <a href="#" class="job-address"><i class="fa fa-map-marker"
+                          aria-hidden="true"></i>
+                        Hà Nội</a>
+                    </div>
+
+                    <div class="job-inf">
+                      <div class="job-main-skill">
+                        <i class="fa fa-code" aria-hidden="true"></i> <a href="#"> .NET</a>
+                      </div>
+                      <div class="job-salary">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                        <span class="salary-min">15<em class="salary-unit">triệu</em></span>
+                        <span class="salary-max">35 <em class="salary-unit">triệu</em></span>
+                      </div>
+                      <div class="job-deadline">
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> Hạn nộp:
+                          <strong>31/02/2020</strong></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrap-btn-appl">
+                    <a href="#" class="btn btn-appl">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="job pagi">
+                <div class="job-content">
+                  <div class="job-logo">
+                    <a href="#">
+                      <img src="img/nvg-logo.png" class="job-logo-ima" alt="job-logo">
+                    </a>
+                  </div>
+
+                  <div class="job-desc">
+                    <div class="job-title">
+                      <a href="#">Frontend Developer (JavaScript, ReactJS)</a>
+                    </div>
+                    <div class="job-company">
+                      <a href="#">mgm technology</a> | <a href="#" class="job-address"><i class="fa fa-map-marker"
+                          aria-hidden="true"></i>
+                        Đà Nẵng</a>
+                    </div>
+
+                    <div class="job-inf">
+                      <div class="job-main-skill">
+                        <i class="fa fa-code" aria-hidden="true"></i> <a href="#"> JavaScript, ReactJS</a>
+                      </div>
+                      <div class="job-salary">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                        <span class="salary-min">15<em class="salary-unit">triệu</em></span>
+                        <span class="salary-max">35 <em class="salary-unit">triệu</em></span>
+                      </div>
+                      <div class="job-deadline">
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> Hạn nộp:
+                          <strong>31/12/2019</strong></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrap-btn-appl">
+                    <a href="#" class="btn btn-appl">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="job pagi">
+                <div class="job-content">
+                  <div class="job-logo">
+                    <a href="#">
+                      <img src="img/luxoft-vietnam-logo.png" class="job-logo-ima" alt="job-logo">
+                    </a>
+                  </div>
+
+                  <div class="job-desc">
+                    <div class="job-title">
+                      <a href="#">IVI System Test Engineer</a>
+                    </div>
+                    <div class="job-company">
+                      <a href="#">NVG TECHNOLOGY</a> | <a href="#" class="job-address"><i class="fa fa-map-marker"
+                          aria-hidden="true"></i>
+                        Đà Nẵng</a>
+                    </div>
+
+                    <div class="job-inf">
+                      <div class="job-main-skill">
+                        <i class="fa fa-code" aria-hidden="true"></i> <a href="#"> Javascript</a>
+                      </div>
+                      <div class="job-salary">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                        <span class="salary-min">15<em class="salary-unit">triệu</em></span>
+                        <span class="salary-max">35 <em class="salary-unit">triệu</em></span>
+                      </div>
+                      <div class="job-deadline">
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> Hạn nộp:
+                          <strong>31/12/2019</strong></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrap-btn-appl">
+                    <a href="#" class="btn btn-appl">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="job pagi">
+                <div class="job-content">
+                  <div class="job-logo">
+                    <a href="#">
+                      <img src="img/fpt-logo.png" class="job-logo-ima" alt="job-logo">
+                    </a>
+                  </div>
+
+                  <div class="job-desc">
+                    <div class="job-title">
+                      <a href="#">[HCM] 02 Solution Architects–Up to $2000</a>
+                    </div>
+                    <div class="job-company">
+                      <a href="#">Fpt Software</a> | <a href="#" class="job-address"><i class="fa fa-map-marker"
+                          aria-hidden="true"></i>
+                        Đà Nẵng</a>
+                    </div>
+
+                    <div class="job-inf">
+                      <div class="job-main-skill">
+                        <i class="fa fa-code" aria-hidden="true"></i> <a href="#"> Java</a>
+                      </div>
+                      <div class="job-salary">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                        <span class="salary-min">15<em class="salary-unit">triệu</em></span>
+                        <span class="salary-max">35 <em class="salary-unit">triệu</em></span>
+                      </div>
+                      <div class="job-deadline">
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> Hạn nộp:
+                          <strong>31/12/2019</strong></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrap-btn-appl">
+                    <a href="#" class="btn btn-appl">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="job pagi">
+                <div class="job-content">
+                  <div class="job-logo">
+                    <a href="#">
+                      <img src="img/fpt-logo.png" class="job-logo-ima" alt="job-logo">
+                    </a>
+                  </div>
+
+                  <div class="job-desc">
+                    <div class="job-title">
+                      <a href="#">[HCM] 02 Solution Architects–Up to $2000</a>
+                    </div>
+                    <div class="job-company">
+                      <a href="#">Fpt Software</a> | <a href="#" class="job-address"><i class="fa fa-map-marker"
+                          aria-hidden="true"></i>
+                        Đà Nẵng</a>
+                    </div>
+
+                    <div class="job-inf">
+                      <div class="job-main-skill">
+                        <i class="fa fa-code" aria-hidden="true"></i> <a href="#"> Java</a>
+                      </div>
+                      <div class="job-salary">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                        <span class="salary-min">15<em class="salary-unit">triệu</em></span>
+                        <span class="salary-max">35 <em class="salary-unit">triệu</em></span>
+                      </div>
+                      <div class="job-deadline">
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> Hạn nộp:
+                          <strong>31/12/2019</strong></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrap-btn-appl">
+                    <a href="#" class="btn btn-appl">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="readmorestyle-wrap">
+                <a href="#" class="readallstyle reads1">Show all</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- (end) job board -->
+        <!-- sidebar -->
+        <div class="col-md-4 col-sm-12 col-12 clear-left">
+          <div class="job-sidebar">
+            <h2 class="widget-title">
+              <span>Major</span>
+            </h2>
+            <div class="catelog-list">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>Developer</em>
+                    </span>
+                    <span class="cate-count">(1100)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>Tester</em>
+                    </span>
+                    <span class="cate-count">(230)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>Business Analysis</em>
+                    </span>
+                    <span class="cate-count">(110)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>Designer</em>
+                    </span>
+                    <span class="cate-count">(2300)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>Product Manager</em>
+                    </span>
+                    <span class="cate-count">(99)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>HR</em>
+                    </span>
+                    <span class="cate-count">(300)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>HR</em>
+                    </span>
+                    <span class="cate-count">(300)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>HR</em>
+                    </span>
+                    <span class="cate-count">(300)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>HR</em>
+                    </span>
+                    <span class="cate-count">(300)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>HR</em>
+                    </span>
+                    <span class="cate-count">(300)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>HR</em>
+                    </span>
+                    <span class="cate-count">(300)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="cate-img">
+                      <em>HR</em>
+                    </span>
+                    <span class="cate-count">(300)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="readallstyle reads1">Show all</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="job-sidebar">
+            <div class="sb-banner">
+              <img src="img/advertise.png" class="advertisement">
+            </div>
+          </div>
+        </div>
+        <!-- (end) sidebar -->
+      </div>
+    </div>
+  </div>
+  <!-- (end) job board & sidebar section  -->
+
+
+
+  <div class="clearfix"></div>
+
+
+
+  <!-- job board v2 -->
+  <div class="container-fluid">
+    <div class="container job-board2">
+      <div class="row">
+        <div class="col-md-12 job-board2-wrap-header">
+          <h3>Latest job vacancies</h3>
+        </div>
+        <div class="col-md-12 job-board2-wrap">
+          <div class="owl-carousel owl-theme job-board2-contain">
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000 #1</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/alipay-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>Fullstack .NET Developer (Angular/React) #2</h3>
+                  <a class="company" href="#">Orient Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/nvg-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>Frontend Developer (JavaScript, ReactJS)</h3>
+                  <a class="company" href="#">mgm technology</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/luxoft-vietnam-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>IVI System Test Engineer</h3>
+                  <a class="company" href="#">LUXOFT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+            <div class="item job-latest-item">
+              <a href="#" class="job-latest-group">
+                <div class="job-lt-logo">
+                  <img src="img/fpt-logo.png">
+                </div>
+                <div class="job-lt-info">
+                  <h3>[HCM] 02 Solution Architects–Up to $2000</h3>
+                  <a class="company" href="#">FPT Software</a>
+                  <p class="address"><i class="fa fa-map-marker pr-1" aria-hidden="true"></i> Đà Nẵng</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function () {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 2,
+            nav: true,
+            slideBy: 2,
+            dots: false
+          },
+          600: {
+            items: 4,
+            nav: false,
+            slideBy: 2,
+            dots: false
+          },
+          1000: {
+            items: 6,
+            nav: true,
+            loop: false,
+            slideBy: 2
+          }
+        }
+      });
+    })
+  </script>
+  <!-- (end) job board v2 -->
+
+  <div class="clearfix"></div>
+
+
+
+
+
+  <!-- top employer -->
+  <div class="container-fluid">
+    <div class="container top-employer">
+      <div class="row">
+        <div class="col-md-12 top-employer-contain">
+          <div class="header">
+            <h3>Top Recruiters</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-12 top-employer-wrap">
+              <div class="top-employer-item">
+                <a href="#">
+                  <div class="emp-img-thumb">
+                    <img src="img/fpt-logo.png">
+                  </div>
+                  <h3 class="company">FPT Software</h3>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 top-employer-wrap">
+              <div class="top-employer-item">
+                <a href="#">
+                  <div class="emp-img-thumb">
+                    <img src="img/nvg-logo.png">
+                  </div>
+                  <h3 class="company">mgm technology</h3>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 top-employer-wrap">
+              <div class="top-employer-item">
+                <a href="#">
+                  <div class="emp-img-thumb">
+                    <img src="img/alipay-logo.png">
+                  </div>
+                  <h3 class="company">ALIPAY Software</h3>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 top-employer-wrap">
+              <div class="top-employer-item">
+                <a href="#">
+                  <div class="emp-img-thumb">
+                    <img src="img/luxoft-vietnam-logo.png">
+                  </div>
+                  <h3 class="company">Luxoft Software</h3>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 top-employer-wrap">
+              <div class="top-employer-item">
+                <a href="#">
+                  <div class="emp-img-thumb">
+                    <img src="img/techcombank-logo.png">
+                  </div>
+                  <h3 class="company">Techcombank</h3>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 top-employer-wrap">
+              <div class="top-employer-item">
+                <a href="#">
+                  <div class="emp-img-thumb">
+                    <img src="img/home-credit.png">
+                  </div>
+                  <h3 class="company">Home Credit</h3>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 top-employer-wrap">
+              <div class="top-employer-item">
+                <a href="#">
+                  <div class="emp-img-thumb">
+                    <img src="img/grab-vietnam.png">
+                  </div>
+                  <h3 class="company">Grab (Vietnam) Ltd.</h3>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 top-employer-wrap">
+              <div class="top-employer-item">
+                <a href="#">
+                  <div class="emp-img-thumb">
+                    <img src="img/HINH.png">
+                  </div>
+                  <h3 class="company">Techbase Vietnam</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- (end) top employer -->
+
+
+  <!-- job support -->
+  <div class="container-fluid job-support-wrapper">
+    <div class="container-fluid job-support-wrap">
+      <div class="container job-support">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-12">
+            <ul class="spp-list">
+              <li>
+                <span><i class="fa fa-question-circle pr-2 icsp"></i>Help Finding Job:</span>
+              </li>
+              <li>
+                <span><i class="fa fa-phone pr-2 icsp"></i>+84 865.894.853</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-12 col-12">
+            <div class="newsletter">
+              <span class="txt6">Register to find job's new</span>
+              <div class="input-group frm1">
+                <input type="text" placeholder="Enter your email address" class="newsletter-email form-control">
+                <a href="#" class="input-group-addon"><i class="fa fa-lg fa-envelope-o colorb"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- (end) job support -->
+</main>
+</body>
+
+</html>
